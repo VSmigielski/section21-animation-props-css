@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #text1 {
+            animation: textAnim 3s infinite;
+        }
+        @keyframes textAnim {
+            from{word-spacing: 5px;}
+            to{word-spacing: 100px;}
+        }
+        #text2 {
+            animation: textAnim2 3s infinite;
+        }
+        @keyframes textAnim2 {
+            from{letter-spacing: 5px;}
+            to{letter-spacing: 20px;}
+        }
+    </style>
+    <title>Word Spacing/Letter-Spacing Animation Properties</title>
+</head>
+<body>
+    <p id="text1">Some sample text to animate</p>
+    <p id="text2">Some sample text to animate</p>
+</body>
+</html>
